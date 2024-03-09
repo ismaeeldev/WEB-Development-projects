@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/banner.jpg);
+    background-position: cover cover;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    opacity: 0.50;
+}
+
+.logo img {
+    width: 170px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    z-index: 10;
+}
+
+.signincard {
+    background-color: rgba(0, 0, 0, 0.689);
+    width: 315px;
+    height: 557px;
+    padding: 40px 68px 40px 68px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    position: relative;
+    top: 49px;
+    left: 565px;
+    color: white;
+    font-family:"Martel Sans", sans-serif;
+}
+
+.email input{
+    width: 270px;
+    height: 20px;
+    padding: 16px 20px 12px 20px;
+    font-size: 16px;
+    background-color: rgb(51,51,51);
+    margin-top: 10px;
+    border: 18px !important;
+    color: white;
+}
+
+.loginbtn button{
+    height: 47px;
+    width: 310px;
+    background-color: rgb(229,9,20);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Martel Sans", sans-serif;
+    border-radius: 10px;
+}
+
+.loginbtn button:hover{
+    background-color: rgb(207, 21, 30);
+}
+
+.remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.remember a:hover{
+text-decoration: underline;
+}
+.howsign{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.new{
+    display: flex;
+    gap: 5px;
+}
+.new p{
+    font-size: 16px;
+    opacity: 0.8;
+}
+.new a{
+    font-size: 18px;
+    opacity: 0.95;
+    cursor: pointer;
+}
+.new a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.Learn p{
+    font-size: 13px;
+    display: inline;
+    opacity: 0.8;
+}
+.Learn a{
+    color: blue;
+    cursor: pointer;
+}
+
+.Learn a:hover{
+    text-decoration: underline;
+}
+
+.bottom img{
+    width: 230px;
+    margin-left: 40px;
+}
